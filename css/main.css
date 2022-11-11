@@ -1,0 +1,53 @@
+*, 
+*::after, 
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timerbox {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    position: relative;
+    width: 80%;
+    height: 150px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px white;
+}
+
+.hourglass {
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.2em;
+}
+
+.sec {
+    text-align: center;
+}
